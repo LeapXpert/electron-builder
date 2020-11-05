@@ -1,5 +1,6 @@
 {
   "name": "leap-electron-builder",
+  "version": "1.0.0",
   "workspaces": [
     "packages/*",
     "test"
