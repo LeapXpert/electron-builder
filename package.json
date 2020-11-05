@@ -1,6 +1,5 @@
 {
-  "name": "@electron-builder/monorepo",
-  "private": true,
+  "name": "leap-electron-builder",
   "workspaces": [
     "packages/*",
     "test"
