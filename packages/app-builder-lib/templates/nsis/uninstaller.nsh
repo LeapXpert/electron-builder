@@ -3,9 +3,6 @@ Function un.onInit
 
   ${IfNot} ${Silent}
     !ifdef ONE_CLICK
-      MessageBox MB_OKCANCEL "$(areYouSureToUninstall)" IDOK +2
-      Quit
-
       # one-click installer executes uninstall section in the silent mode, but we must show message dialog if silent mode was not explicitly set by user (using /S flag)
       !insertmacro CHECK_APP_RUNNING
       SetSilent silent
